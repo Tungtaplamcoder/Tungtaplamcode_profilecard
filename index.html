@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card Hover Animation | CodingNepal</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="images/profile.jpg" alt="">
+            </a>
+            <div class="title">
+               Lê Khánh Tùng
+            </div>
+            <div class="place">
+               Hà Nội, Việt Nam
+            </div>
+         </div>
+         <div class="content">
+            <p>
+              Nhà thiết kế giao diện người dùng <br>và nhà phát triển front-end
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <a href="https://www.facebook.com/profile.php?id=100085638253371">
+                    <button>Message</button>
+                  </a>
+               </div>
+               <div class="btn">
+                  <a href="https://www.facebook.com/profile.php?id=100085638253371">
+                    <button>Following</button>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100085638253371"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://discord.gg/B3jTNj6FUw"><span class="fab fa-discord"></span></a></li>
+            <li><a href="https://www.instagram.com/_tungdabiban_/"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="https://github.com/Tungtaplamcoder"><span class="fab fa-github"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
