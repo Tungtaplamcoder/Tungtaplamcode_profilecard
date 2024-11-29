@@ -43,17 +43,6 @@
             <li><a href="https://www.instagram.com/_tungdabiban_/"><span class="fab fa-instagram"></span></a></li>
             <li><a href="https://github.com/Tungtaplamcoder"><span class="fab fa-github"></span></a></li>
          </div>
-         <section>
-            <button onclick="toggleContent('hobbies')">Sở thích</button>
-            <div id="hobbies" class="content">
-                <ul>
-                    <li>Đọc sách và tìm hiểu về công nghệ mới.</li>
-                    <li>Thử nghiệm các công thức nấu ăn độc đáo.</li>
-                    <li>Đi du lịch và khám phá văn hóa của các quốc gia.</li>
-                    <li>Chụp ảnh và lưu giữ những khoảnh khắc đẹp.</li>
-                </ul>
-            </div>
-         </section>
       </div>
       <script>
          const img = document.querySelector("img");
@@ -62,14 +51,6 @@
            this.classList.toggle("active");
            icons.classList.toggle("active");
          }
-         function toggleContent(id) {
-            const content = document.getElementById(id);
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        }
       </script>
    </body>
 </html>
